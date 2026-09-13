@@ -1,0 +1,76 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+token.txt
+data.json
+config.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and runtime
+*.log
+logs/
+*.pid
+
+# Audio assets (large binaries; keep folder via audio/.gitkeep if needed)
+audio/*
+!audio/.gitkeep
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+*.opus
+
+# FFmpeg / temp
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
